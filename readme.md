@@ -4,8 +4,7 @@ The api has been tested with the POSTMAN application.
 Start a new PHP server in your machine and run the command:
 
 <code>php -S localhost:8080</code>
-
-Insert new task:
+<h3>Insert new task:</h3>
 
 <pre><code>http://localhost:8080/api/tasks/store</code></pre>
 
@@ -20,7 +19,7 @@ You need to select the post option on POSTMAN and send the fields in json format
 }
 </code>
 </pre>
-Update a task:
+<h3>Update a task:</h3>
 
 <pre><code>http://localhost:8080/api/tasks/update/{id}</i></code></pre>
 
@@ -35,12 +34,10 @@ You need to select the PUT option on POSTMAN and send the fields in json format:
 }
 </code>
 </pre>
-Delete a task:
+<h3>Delete a task:</h3>
 
 <pre><code>http://localhost:8080/api/tasks/destroy/{id}</code></pre>
 
 You need to select the delete option on POSTMAN.
-
-List all tasks:
-
+<h3>List all tasks:</h3>
 <pre><code>http://localhost:8080/api/tasks/</code></pre>
