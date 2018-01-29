@@ -1,6 +1,10 @@
 # API TO DO LIST
 
+
 The api has been tested with the POSTMAN application.
+
+Clone this folder to your system and run composer.
+
 Start a new PHP server in your machine and run the command:
 
 <code>php -S localhost:8080</code>
