@@ -5,6 +5,27 @@ The api has been tested with the POSTMAN application.
 
 Clone this folder to your system and run composer.
 
+Configure the .env file to conect with de SQLITE
+<pre>
+<code>
+APP_ENV=local
+APP_DEBUG=true
+APP_KEY=
+APP_TIMEZONE=UTC
+
+DB_CONNECTION=sqlite
+#DB_HOST=127.0.0.1
+#DB_PORT=3306
+#DB_DATABASE=homestead
+#DB_USERNAME=homestead
+#DB_PASSWORD=secret
+
+CACHE_DRIVER=file
+QUEUE_DRIVER=sync
+
+</code>
+</pre>
+
 Start a new PHP server in your machine and run the command:
 
 <code>php -S localhost:8080</code>
